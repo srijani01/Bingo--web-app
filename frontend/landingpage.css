@@ -1,0 +1,31 @@
+body{
+    background-image: url("images/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+div{
+    text-align: center;
+    margin-top: 150px;
+    
+    color: rgb(5, 5, 5);
+    
+}
+div h6{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.h4{
+    margin-top: 22px;
+    color: black;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}

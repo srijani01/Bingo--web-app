@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("images/pagebg.png");
+    opacity: 80%;
+
+}
+
+.navbar-brand{
+    background-color: transparent;
+    width: max-content;
+
+}
+
+#text-container{
+    width: 700px;
+    height: 370px;
+    padding: 30px;  
+    color: rgb(7, 7, 7);
+    text-align: left;
+    font-weight: 800;
+    /* border: 2px solid red; */
+    font-size: 15px; 
+    /* position: absolute; */
+    float: left;
+    top: 200px;
+    left:auto;
+
+}
+
+
+#login-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 1000px;
+    margin-top: 100px;
+    border: 1px;
+    
+
+}
+
+
+form{
+    width: 400px;
+    
+}
+
+.avatar{
+    width: 100px;
+    background: transparent;
+}
+
+form h2{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 15px 0;
+    color: rgb(14, 13, 13);
+}
+.input-div{
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #d9d9d9;
+
+}
+
+.input-div.one{
+    margin-top: 4px;
+}
+
+.input-div.two{
+    margin-bottom: 4px;
+}
+
+.i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i i{
+    color: #d9d9d9;
+}
+
+.input-div > div{
+    position: relative;
+    height: 45px;
+}
+
+.input-div > div h5{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(10, 10, 10);
+    font-size: 18px;
+    
+    transition: .3s;
+}
+
+.input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+a{
+    display: block;
+    text-align:right;
+    text-decoration: none;
+   color: black;
+    font-size: 0.9rem;
+    transition: .3s;
+}
+
+a:hover{
+    color: #38d3;
+}
+
+#button{
+    /* background-color: #ffc107; */
+    background-color: #fb9d08;
+    color: black;
+
+    display: block;
+	width: 100%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	
+	background-size: 200%;
+	font-size: 1.2rem;
+    font-weight: bolder;
+	
+	font-family: 'Times New Roman', Times, serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+}
